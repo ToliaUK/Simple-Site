@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto',Arial, Helvetica, sans-serif sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+/* HEADER */
+
+header {
+    background-color: #EEEFF1;
+}
+
+.conteiner {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;  
+}
+
+.first_screen {
+    padding: 79px 0 51px 0;
+}
+
+.nav {
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    padding-right: 42px;
+}
+
+.home {
+    font-weight: 500;
+}
+
+.home a {
+    color: #34547A;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+
+h1 {
+    margin: 0;
+    padding-top: 100px;
+}
+
+.head_title {
+    background-color: #EEEFF1;
+}
+
+.head_title p {
+    max-width: 540px;
+    padding-top: 60px;
+}
+
+.head_title a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #34547A;
+    padding: 19px 41px 20px 41px;
+}
+
+.btn {
+    padding: 65px 0 141px 0;
+}
+
+/* About_me */
+
+.about_me {
+    margin: 0 auto;
+    padding: 0 275px;
+    text-align: center;
+}
+
+.about_me h2 {
+    padding-top: 112px;
+}
+
+.about_me p {
+    padding: 50px 0 100px 0;
+}
+
+/* Numbers*/
+
+.numbers {
+    background: #34547A;
+    color: white;
+}
+
+.numbers_item {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 100px 22.5px;
+}
+
+.numbers_item div {
+    display: inline-block;
+}
+
+.group {
+    padding-left: 20px;
+}
+
+/* How do I work */
+
+.how_work {
+    margin: 0 auto;
+    padding: 0 275px;
+    text-align: center;
+}
+
+.how_work h2 {
+    padding-top: 100px;
+}
+
+.how_work p {
+    padding: 50px 0 57px 0;
+}
+
+.video {
+    padding-bottom: 100px;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #34547A;
+    color: white;
+}
+
+.footer h3 {
+    padding: 50px 0 20px 0;
+}
+
+.footer p {
+    padding-bottom: 50px;
+}
