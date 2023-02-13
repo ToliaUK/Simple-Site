@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Roboto',Arial, Helvetica, sans-serif sans-serif;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -28,7 +28,7 @@ header {
 }
 
 .first_screen {
-    padding: 79px 0 51px 0;
+    padding: 80px 0 50px 0;
 }
 
 .nav {
@@ -67,10 +67,10 @@ h1 {
 
 .head_title p {
     max-width: 540px;
-    padding-top: 60px;
+    margin-top: 60px;
 }
 
-.head_title a {
+.btn a {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -86,16 +86,12 @@ h1 {
 
 .about_me {
     margin: 0 auto;
-    padding: 0 275px;
+    padding: 112px 275px;
     text-align: center;
 }
 
-.about_me h2 {
-    padding-top: 112px;
-}
-
 .about_me p {
-    padding: 50px 0 100px 0;
+    margin-top: 50px;
 }
 
 /* Numbers*/
@@ -123,16 +119,12 @@ h1 {
 
 .how_work {
     margin: 0 auto;
-    padding: 0 275px;
+    padding: 100px 275px 57px;
     text-align: center;
 }
 
-.how_work h2 {
-    padding-top: 100px;
-}
-
 .how_work p {
-    padding: 50px 0 57px 0;
+    margin-top: 50px;
 }
 
 .video {
@@ -144,12 +136,9 @@ h1 {
 .footer {
     background: #34547A;
     color: white;
+    padding: 50px 0;
 }
 
 .footer h3 {
-    padding: 50px 0 20px 0;
-}
-
-.footer p {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
